@@ -7,16 +7,16 @@ import {AiOutlineSearch} from 'react-icons/ai';
 const Header = () => {
   return (
     <header className="p-2 flex md:flex-row flex-col items-center justify-between lg:w-[80%] lg:mx-auto mt-5">
-      <div className="w-[450px] flex justify-between items-center">
+      <div className="w-[450px] flex justify-between md:flex-row flex-col items-center">
         <div>
           <img src={Logo} width={120} alt="" />
         </div>
-        <div className="relative">
+        <div className="relative md:mt-0 mt-4">
           <small className="text-white absolute top-2 left-2 text-xl"><AiOutlineSearch></AiOutlineSearch></small>
           <input className="search-fied pl-10" type="text" name="" id="" placeholder='search your destination' />
         </div>
       </div>
-      <div className="flex items-center w-[450px] mr-5">
+      <div className="flex items-center w-[450px] mr-5 md:mt-0 mt-4">
         <div className="link-containers">
           <Link to='/news'>News</Link>
           <Link to='/destination'>Destination</Link>
