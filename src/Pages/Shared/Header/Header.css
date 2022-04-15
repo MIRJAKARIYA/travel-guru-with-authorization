@@ -1,0 +1,22 @@
+.link-containers{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.search-fied{
+    width: 320px;
+    height: 33px;
+    background-color: rgba(255, 255, 255, 0.226);
+    border: 1px solid rgba(255, 255, 255, 0.671);
+    color: white;
+    border-radius: 5px;
+}
+
+.search-fied:focus{
+    outline: none;
+}
+
+input::placeholder{
+    color: white;
+}

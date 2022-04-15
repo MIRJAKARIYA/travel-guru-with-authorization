@@ -1,0 +1,9 @@
+.home-page-background{
+    background-image: url('../../images/Rectangle\ 1.png');
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flow-root;
+}
